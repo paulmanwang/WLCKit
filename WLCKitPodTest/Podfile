@@ -6,6 +6,6 @@ use_frameworks!
 target ‘WLCKitPodTest’ do
 
 source 'https://git.coding.net/wanglichun/WLCSpecs.git'
-pod ‘WLCKit’, '~>1.3'
+pod 'WLCKit', '~>1.7'
 
 end

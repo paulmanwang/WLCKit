@@ -4,7 +4,7 @@
 //
 //  Created by lichunwang on 17/1/12.
 //  Copyright © 2017年 springcome. All rights reserved.
-//
+//  提供获取各类沙盒路径的静态方法
 
 #import <Foundation/Foundation.h>
 

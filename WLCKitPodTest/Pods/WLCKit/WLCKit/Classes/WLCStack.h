@@ -4,7 +4,7 @@
 //
 //  Created by lichunwang on 16/12/9.
 //  Copyright © 2016年 springcome. All rights reserved.
-//
+//  7种方法实现的线程安全的stack
 
 #import <Foundation/Foundation.h>
 

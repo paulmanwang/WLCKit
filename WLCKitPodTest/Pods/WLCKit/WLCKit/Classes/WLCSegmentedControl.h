@@ -4,7 +4,7 @@
 //
 //  Created by wanglichun on 15/7/9.
 //  Copyright (c) 2015年 Xunlei. All rights reserved.
-//
+//  分段控件
 
 #import <UIKit/UIKit.h>
 

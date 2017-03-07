@@ -10,8 +10,19 @@
 
 @interface UIScreen (WLC)
 
+/**
+ 屏幕的scale
+
+ @return <#return value description#>
+ */
 + (CGFloat)screenScale;
 
+
+/**
+ 判断屏幕是否为窄屏
+
+ @return 是否为窄屏
+ */
 + (BOOL)isNarrowScreen;
 
 @end

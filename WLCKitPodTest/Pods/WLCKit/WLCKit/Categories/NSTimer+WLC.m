@@ -26,7 +26,7 @@
 
 + (void)_wlc_ExecBlock:(NSTimer *)timer
 {
-    void(^block)(NSTimer *timer) = timer.userInfo[@"block"];
+    void(^block)(NSTimer *timer) = timer.userInfo;
     if (block) {
         block(timer);
     }

@@ -10,10 +10,19 @@
 
 @interface NSMutableArray (WLC)
 
+/**
+ 冒泡排序
+ */
 - (void)bubbleSort;
 
+/**
+ 快速排序
+ */
 - (void)quickSort;
 
+/**
+ 堆排序呢
+ */
 - (void)heapSort;
 
 @end

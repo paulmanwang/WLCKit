@@ -32,10 +32,28 @@
 @property (assign, nonatomic) CGFloat transformTranslationY;
 @property (assign, nonatomic) CGFloat transformTranslationZ;
 
+
+/**
+ 生成快照图像
+
+ @return 快照图像
+ */
 - (UIImage *)snapshotImage;
 
+
+/**
+ 移除所有子layers
+ */
 - (void)removeAllSublayers;
 
+
+/**
+ 设置图层的阴影效果
+
+ @param color  阴影颜色
+ @param offset 阴影偏移量
+ @param radius 阴影半径
+ */
 - (void)setShadowWithColor:(UIColor *)color offset:(CGSize)offset radius:(CGFloat)radius;
 
 @end

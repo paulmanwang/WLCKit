@@ -8,7 +8,7 @@
 
 #import "WLCSegmentedController.h"
 #import "WLCSegmentedControl.h"
-#import "WLCKit.h"
+#import "UIView+WLC.h"
 
 @interface WLCSegmentedController ()<UIPageViewControllerDataSource, UIPageViewControllerDelegate, WLCSegmentedControlDelegate>
 
@@ -24,11 +24,18 @@
 
 @implementation WLCSegmentedController
 
-WLC_VIEW_CONTROLLER_INIT
-
 + (instancetype)instance
 {
     return [[self alloc] initWithNibName:@"WLCSegmentedController" bundle:nil];
+}
+
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        [self _init];
+    }
+    return self;
 }
 
 - (void)_init
@@ -107,7 +114,7 @@ WLC_VIEW_CONTROLLER_INIT
 
 - (void)setScrollEnabled:(BOOL)scrollEnabled
 {
-    UIScrollView *scrollView = [self.view subviewByTraversingWithCompareBlock:^BOOL(UIView *viewToCheck) {
+    UIScrollView *scrollView = (UIScrollView *)[self.view subviewByTraversingWithCompareBlock:^BOOL(UIView *viewToCheck) {
         if ([viewToCheck isKindOfClass:[UIScrollView class]]) {
             return YES;
         }

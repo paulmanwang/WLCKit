@@ -1,20 +1,10 @@
-
+//
+//  Created by lichunwang on 16/7/23.
+//  Copyright © 2016年 springcome. All rights reserved.
+//  线程安全数组
 
 #import <Foundation/Foundation.h>
 
-/**
- A simple implementation of thread safe mutable array.
- 
- @discussion Generally, access performance is lower than NSMutableArray, 
- but higher than using @synchronized, NSLock, or pthread_mutex_t.
- 
- @discussion It's also compatible with the custom methods in `NSArray(YYAdd)`
- and `NSMutableArray(YYAdd)`
- 
- @warning Fast enumerate(for..in) and enumerator is not thread safe,
- use enumerate using block instead. When enumerate or sort with block/callback,
- do *NOT* send message to the array inside the block/callback.
- */
 @interface WLCThreadSafeArray : NSMutableArray
 
 @end

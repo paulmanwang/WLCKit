@@ -10,8 +10,18 @@
 
 @interface UILabel (WLC)
 
+/**
+ 在限定width的情况下，计算label的size
+
+ @param maxWidth label的最大宽度
+
+ @return label的size
+ */
 - (CGSize)textSizeLimitedToMaxWidth:(CGFloat)maxWidth;
 
+/**
+ 自动调整高度
+ */
 - (void)autoAdjustHeight;
 
 @end

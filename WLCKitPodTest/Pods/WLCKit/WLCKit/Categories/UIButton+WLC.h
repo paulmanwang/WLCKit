@@ -12,9 +12,7 @@
 
 @property (assign, nonatomic) NSString *title;
 
-- (instancetype)initWithFrame:(CGRect)frame
-                        title:(NSString *)title
-                     tapBlock:(void(^)(void))tapBlock;
+- (instancetype)initWithFrame:(CGRect)frame title:(NSString *)title tapBlock:(void(^)(void))tapBlock;
 
 - (void)addAction:(void(^)(void))actionBlock;
 

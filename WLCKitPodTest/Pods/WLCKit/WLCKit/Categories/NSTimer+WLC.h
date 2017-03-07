@@ -4,7 +4,7 @@
 //
 //  Created by lichunwang on 17/2/20.
 //  Copyright © 2017年 springcome. All rights reserved.
-//
+//  说明：该类可以有效避免NSTimer的内存泄漏问题
 
 #import <Foundation/Foundation.h>
 

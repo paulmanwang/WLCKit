@@ -22,6 +22,14 @@
 
 #pragma mark - Search
 
+
+/**
+ 二分查找
+
+ @param value 待查找的对象
+
+ @return 对象所在的下标
+ */
 - (NSInteger)binarySearchValue:(id)value;
 
 @end

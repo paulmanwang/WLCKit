@@ -4,7 +4,7 @@
 //
 //  Created by lichunwang on 16/7/16.
 //  Copyright © 2016年 springcome. All rights reserved.
-//
+//  空白视图控件
 
 #import <UIKit/UIKit.h>
 

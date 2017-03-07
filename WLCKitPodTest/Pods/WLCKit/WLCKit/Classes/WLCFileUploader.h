@@ -4,7 +4,7 @@
 //
 //  Created by lichunwang on 17/2/6.
 //  Copyright © 2017年 springcome. All rights reserved.
-//
+//  文件上传辅助类
 
 #import <Foundation/Foundation.h>
 

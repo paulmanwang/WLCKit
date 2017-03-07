@@ -51,8 +51,7 @@
     });
 }
 
-- (void)roundCornerWithRadius:(CGFloat)radius
-                    conerType:(UIRectCorner)conerType
+- (void)roundCornerWithRadius:(CGFloat)radius cornerType:(UIRectCorner)cornerType;
 {
     UIImage *image = self.image;
     if (image == nil) {
@@ -60,7 +59,7 @@
         return;
     }
     
-    [self roundCornerWithImage:image cornerRadius:radius cornerType:conerType];
+    [self roundCornerWithImage:image cornerRadius:radius cornerType:cornerType];
 }
 
 - (void)triangleWithImage:(UIImage *)image

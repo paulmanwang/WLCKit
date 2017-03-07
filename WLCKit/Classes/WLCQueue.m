@@ -7,7 +7,6 @@
 //
 
 #import "WLCQueue.h"
-#import "WLCKit.h"
 
 @interface WLCQueue ()
 
@@ -17,11 +16,14 @@
 
 @implementation WLCQueue
 
-WLC_OBJECT_INIT
-
-- (void)_init
+- (instancetype)init
 {
-    self.queue = [NSMutableArray new];
+    self = [super init];
+    if (self) {
+        self.queue = [NSMutableArray new];
+    }
+    
+    return self;
 }
 
 - (void)push:(id)anObject

@@ -10,10 +10,28 @@
 
 @interface UIImageView (WLC)
 
+/**
+ 生成圆角图像
+
+ @param image        原始图像
+ @param cornerRadius 圆角度
+ @param cornerType   需要有圆角效果的corners
+ */
 - (void)roundCornerWithImage:(UIImage *)image cornerRadius:(CGFloat)cornerRadius cornerType:(UIRectCorner)cornerType;
 
-- (void)roundCornerWithRadius:(CGFloat)radius conerType:(UIRectCorner)conerType;
+/**
+ 生成圆角图像
+ 
+ @param radius        原始图像
+ @param cornerType   需要有圆角效果的corners
+ */
+- (void)roundCornerWithRadius:(CGFloat)radius cornerType:(UIRectCorner)cornerType;
 
+/**
+ 生成三角图像
+
+ @param image 原始图像
+ */
 - (void)triangleWithImage:(UIImage *)image;
 
 @end
