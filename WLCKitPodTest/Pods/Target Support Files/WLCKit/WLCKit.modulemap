@@ -1,0 +1,6 @@
+framework module WLCKit {
+  umbrella header "WLCKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

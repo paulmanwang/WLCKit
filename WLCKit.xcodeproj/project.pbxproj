@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92CE17901E5558C90045C740 /* WLCKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE178E1E5558C90045C740 /* WLCKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92CE17C31E55638C0045C740 /* WLCDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17991E55638C0045C740 /* WLCDatePicker.h */; };
+		92CE17C41E55638C0045C740 /* WLCDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE179A1E55638C0045C740 /* WLCDatePicker.m */; };
+		92CE17C61E55638C0045C740 /* WLCEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE179C1E55638C0045C740 /* WLCEmptyView.h */; };
+		92CE17C71E55638C0045C740 /* WLCEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE179D1E55638C0045C740 /* WLCEmptyView.m */; };
+		92CE17C91E55638C0045C740 /* WLCFileTypeCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE179F1E55638C0045C740 /* WLCFileTypeCheck.h */; };
+		92CE17CA1E55638C0045C740 /* WLCFileTypeCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17A01E55638C0045C740 /* WLCFileTypeCheck.m */; };
+		92CE17CB1E55638C0045C740 /* WLCFileUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17A11E55638C0045C740 /* WLCFileUploader.h */; };
+		92CE17CC1E55638C0045C740 /* WLCFileUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17A21E55638C0045C740 /* WLCFileUploader.m */; };
+		92CE17CE1E55638C0045C740 /* WLCOnePixelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17A41E55638C0045C740 /* WLCOnePixelView.h */; };
+		92CE17CF1E55638C0045C740 /* WLCOnePixelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17A51E55638C0045C740 /* WLCOnePixelView.m */; };
+		92CE17D01E55638C0045C740 /* WLCPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17A61E55638C0045C740 /* WLCPickerView.h */; };
+		92CE17D11E55638C0045C740 /* WLCPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17A71E55638C0045C740 /* WLCPickerView.m */; };
+		92CE17D31E55638C0045C740 /* WLCSandBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17A91E55638C0045C740 /* WLCSandBox.h */; };
+		92CE17D41E55638C0045C740 /* WLCSandBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17AA1E55638C0045C740 /* WLCSandBox.m */; };
+		92CE17D71E55638C0045C740 /* WLCSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17AD1E55638C0045C740 /* WLCSegmentedControl.h */; };
+		92CE17D81E55638C0045C740 /* WLCSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17AE1E55638C0045C740 /* WLCSegmentedControl.m */; };
+		92CE17D91E55638C0045C740 /* WLCSegmentedController.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17AF1E55638C0045C740 /* WLCSegmentedController.h */; };
+		92CE17DA1E55638C0045C740 /* WLCSegmentedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17B01E55638C0045C740 /* WLCSegmentedController.m */; };
+		92CE17E41E55638C0045C740 /* WLCThreadSafeArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17BA1E55638C0045C740 /* WLCThreadSafeArray.h */; };
+		92CE17E51E55638C0045C740 /* WLCThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17BB1E55638C0045C740 /* WLCThreadSafeArray.m */; };
+		92CE17E61E55638C0045C740 /* WLCThreadSafeDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17BC1E55638C0045C740 /* WLCThreadSafeDictionary.h */; };
+		92CE17E71E55638C0045C740 /* WLCThreadSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17BD1E55638C0045C740 /* WLCThreadSafeDictionary.m */; };
+		92CE17E81E55638C0045C740 /* WLCToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17BE1E55638C0045C740 /* WLCToastView.h */; };
+		92CE17E91E55638C0045C740 /* WLCToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17BF1E55638C0045C740 /* WLCToastView.m */; };
+		92CE180D1E55639E0045C740 /* NSArray+WLC.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17EC1E55639E0045C740 /* NSArray+WLC.h */; };
+		92CE180E1E55639E0045C740 /* NSArray+WLC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17ED1E55639E0045C740 /* NSArray+WLC.m */; };
+		92CE180F1E55639E0045C740 /* NSBundle+WLC.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17EE1E55639E0045C740 /* NSBundle+WLC.h */; };
+		92CE18101E55639E0045C740 /* NSBundle+WLC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17EF1E55639E0045C740 /* NSBundle+WLC.m */; };
+		92CE18111E55639E0045C740 /* NSData+WLC.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17F01E55639E0045C740 /* NSData+WLC.h */; };
+		92CE18121E55639E0045C740 /* NSData+WLC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17F11E55639E0045C740 /* NSData+WLC.m */; };
+		92CE18131E55639E0045C740 /* NSDate+WLC.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17F21E55639E0045C740 /* NSDate+WLC.h */; };
+		92CE18141E55639E0045C740 /* NSDate+WLC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17F31E55639E0045C740 /* NSDate+WLC.m */; };
+		92CE18151E55639E0045C740 /* NSObject+MethodSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17F41E55639E0045C740 /* NSObject+MethodSwizzle.h */; };
+		92CE18161E55639E0045C740 /* NSObject+MethodSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17F51E55639E0045C740 /* NSObject+MethodSwizzle.m */; };
+		92CE18171E55639E0045C740 /* PHAsset+WLC.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17F61E55639E0045C740 /* PHAsset+WLC.h */; };
+		92CE18181E55639E0045C740 /* PHAsset+WLC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17F71E55639E0045C740 /* PHAsset+WLC.m */; };
+		92CE18191E55639E0045C740 /* UIButton+WLC.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17F81E55639E0045C740 /* UIButton+WLC.h */; };
+		92CE181A1E55639E0045C740 /* UIButton+WLC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17F91E55639E0045C740 /* UIButton+WLC.m */; };
+		92CE181B1E55639E0045C740 /* UIColor+WLC.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17FA1E55639E0045C740 /* UIColor+WLC.h */; };
+		92CE181C1E55639E0045C740 /* UIColor+WLC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17FB1E55639E0045C740 /* UIColor+WLC.m */; };
+		92CE181D1E55639E0045C740 /* UIDevice+WLC.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17FC1E55639E0045C740 /* UIDevice+WLC.h */; };
+		92CE181E1E55639E0045C740 /* UIDevice+WLC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17FD1E55639E0045C740 /* UIDevice+WLC.m */; };
+		92CE181F1E55639E0045C740 /* UIImage+WLC.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE17FE1E55639E0045C740 /* UIImage+WLC.h */; };
+		92CE18201E55639E0045C740 /* UIImage+WLC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE17FF1E55639E0045C740 /* UIImage+WLC.m */; };
+		92CE18211E55639E0045C740 /* UIImageView+WLC.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE18001E55639E0045C740 /* UIImageView+WLC.h */; };
+		92CE18221E55639E0045C740 /* UIImageView+WLC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE18011E55639E0045C740 /* UIImageView+WLC.m */; };
+		92CE18231E55639E0045C740 /* UILabel+WLC.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE18021E55639E0045C740 /* UILabel+WLC.h */; };
+		92CE18241E55639E0045C740 /* UILabel+WLC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE18031E55639E0045C740 /* UILabel+WLC.m */; };
+		92CE18251E55639E0045C740 /* UIScreen+WLC.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE18041E55639E0045C740 /* UIScreen+WLC.h */; };
+		92CE18261E55639E0045C740 /* UIScreen+WLC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE18051E55639E0045C740 /* UIScreen+WLC.m */; };
+		92CE18291E55639E0045C740 /* UIView+WLC.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE18081E55639E0045C740 /* UIView+WLC.h */; };
+		92CE182A1E55639E0045C740 /* UIView+WLC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE18091E55639E0045C740 /* UIView+WLC.m */; };
+		92CE182B1E55639E0045C740 /* UIViewController+WLC.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE180A1E55639E0045C740 /* UIViewController+WLC.h */; };
+		92CE182C1E55639E0045C740 /* UIViewController+WLC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE180B1E55639E0045C740 /* UIViewController+WLC.m */; };
+		92CE18391E556A320045C740 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CE18381E556A320045C740 /* libz.tbd */; };
+		92CE187E1E55A6ED0045C740 /* WLCDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92CE18791E55A6ED0045C740 /* WLCDatePicker.xib */; };
+		92CE187F1E55A6ED0045C740 /* WLCEmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92CE187A1E55A6ED0045C740 /* WLCEmptyView.xib */; };
+		92CE18801E55A6ED0045C740 /* WLCPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92CE187B1E55A6ED0045C740 /* WLCPickerView.xib */; };
+		92CE18811E55A6ED0045C740 /* WLCSegmentedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92CE187C1E55A6ED0045C740 /* WLCSegmentedController.xib */; };
+		92CE18821E55A6ED0045C740 /* WLCToastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92CE187D1E55A6ED0045C740 /* WLCToastView.xib */; };
+		92CE188F1E55A8580045C740 /* WLCDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92CE18791E55A6ED0045C740 /* WLCDatePicker.xib */; };
+		92CE18901E55A8580045C740 /* WLCEmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92CE187A1E55A6ED0045C740 /* WLCEmptyView.xib */; };
+		92CE18911E55A8580045C740 /* WLCPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92CE187B1E55A6ED0045C740 /* WLCPickerView.xib */; };
+		92CE18921E55A8580045C740 /* WLCSegmentedController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92CE187C1E55A6ED0045C740 /* WLCSegmentedController.xib */; };
+		92CE18931E55A8580045C740 /* WLCToastView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92CE187D1E55A6ED0045C740 /* WLCToastView.xib */; };
+		92CE189F1E56CCBA0045C740 /* NSString+URLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE189D1E56CCBA0045C740 /* NSString+URLEncode.h */; };
+		92CE18A01E56CCBA0045C740 /* NSString+URLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE189E1E56CCBA0045C740 /* NSString+URLEncode.m */; };
+		92CE18A31E56CCE40045C740 /* NSObject+WLC.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE18A11E56CCE40045C740 /* NSObject+WLC.h */; };
+		92CE18A41E56CCE40045C740 /* NSObject+WLC.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE18A21E56CCE40045C740 /* NSObject+WLC.m */; };
+		92CE18B11E56CD2D0045C740 /* WLCAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE18A51E56CD2D0045C740 /* WLCAnimation.h */; };
+		92CE18B21E56CD2D0045C740 /* WLCAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE18A61E56CD2D0045C740 /* WLCAnimation.m */; };
+		92CE18B31E56CD2D0045C740 /* WLCBannerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE18A71E56CD2D0045C740 /* WLCBannerView.h */; };
+		92CE18B41E56CD2D0045C740 /* WLCBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE18A81E56CD2D0045C740 /* WLCBannerView.m */; };
+		92CE18B51E56CD2D0045C740 /* WLCCommentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE18A91E56CD2D0045C740 /* WLCCommentView.h */; };
+		92CE18B61E56CD2D0045C740 /* WLCCommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE18AA1E56CD2D0045C740 /* WLCCommentView.m */; };
+		92CE18B71E56CD2D0045C740 /* WLCPraiseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE18AB1E56CD2D0045C740 /* WLCPraiseView.h */; };
+		92CE18B81E56CD2D0045C740 /* WLCPraiseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE18AC1E56CD2D0045C740 /* WLCPraiseView.m */; };
+		92CE18B91E56CD2D0045C740 /* WLCQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE18AD1E56CD2D0045C740 /* WLCQueue.h */; };
+		92CE18BA1E56CD2D0045C740 /* WLCQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE18AE1E56CD2D0045C740 /* WLCQueue.m */; };
+		92CE18BB1E56CD2D0045C740 /* WLCStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 92CE18AF1E56CD2D0045C740 /* WLCStack.h */; };
+		92CE18BC1E56CD2D0045C740 /* WLCStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE18B01E56CD2D0045C740 /* WLCStack.m */; };
+		92CE18BE1E56CD680045C740 /* wlc_comment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92CE18BD1E56CD680045C740 /* wlc_comment@2x.png */; };
+		92CE18C01E56CD810045C740 /* wlc_empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92CE18BF1E56CD810045C740 /* wlc_empty@2x.png */; };
+		92CE18C21E56CDB80045C740 /* wlc_praise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92CE18C11E56CDB80045C740 /* wlc_praise@2x.png */; };
+		92CE196E1E56EB110045C740 /* wlc_praise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92CE18C11E56CDB80045C740 /* wlc_praise@2x.png */; };
+		92CE196F1E56EB110045C740 /* wlc_empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92CE18BF1E56CD810045C740 /* wlc_empty@2x.png */; };
+		92CE19701E56EB110045C740 /* wlc_comment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92CE18BD1E56CD680045C740 /* wlc_comment@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		92CE188D1E55A83D0045C740 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 92CE17821E5558C90045C740 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92CE18861E55A7C70045C740;
+			remoteInfo = WLCKitBundle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		92CE178B1E5558C90045C740 /* WLCKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WLCKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CE178E1E5558C90045C740 /* WLCKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLCKit.h; sourceTree = "<group>"; };
+		92CE178F1E5558C90045C740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92CE17991E55638C0045C740 /* WLCDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCDatePicker.h; sourceTree = "<group>"; };
+		92CE179A1E55638C0045C740 /* WLCDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCDatePicker.m; sourceTree = "<group>"; };
+		92CE179C1E55638C0045C740 /* WLCEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCEmptyView.h; sourceTree = "<group>"; };
+		92CE179D1E55638C0045C740 /* WLCEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCEmptyView.m; sourceTree = "<group>"; };
+		92CE179F1E55638C0045C740 /* WLCFileTypeCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCFileTypeCheck.h; sourceTree = "<group>"; };
+		92CE17A01E55638C0045C740 /* WLCFileTypeCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCFileTypeCheck.m; sourceTree = "<group>"; };
+		92CE17A11E55638C0045C740 /* WLCFileUploader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCFileUploader.h; sourceTree = "<group>"; };
+		92CE17A21E55638C0045C740 /* WLCFileUploader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCFileUploader.m; sourceTree = "<group>"; };
+		92CE17A41E55638C0045C740 /* WLCOnePixelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCOnePixelView.h; sourceTree = "<group>"; };
+		92CE17A51E55638C0045C740 /* WLCOnePixelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCOnePixelView.m; sourceTree = "<group>"; };
+		92CE17A61E55638C0045C740 /* WLCPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCPickerView.h; sourceTree = "<group>"; };
+		92CE17A71E55638C0045C740 /* WLCPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCPickerView.m; sourceTree = "<group>"; };
+		92CE17A91E55638C0045C740 /* WLCSandBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCSandBox.h; sourceTree = "<group>"; };
+		92CE17AA1E55638C0045C740 /* WLCSandBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCSandBox.m; sourceTree = "<group>"; };
+		92CE17AD1E55638C0045C740 /* WLCSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCSegmentedControl.h; sourceTree = "<group>"; };
+		92CE17AE1E55638C0045C740 /* WLCSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCSegmentedControl.m; sourceTree = "<group>"; };
+		92CE17AF1E55638C0045C740 /* WLCSegmentedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCSegmentedController.h; sourceTree = "<group>"; };
+		92CE17B01E55638C0045C740 /* WLCSegmentedController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCSegmentedController.m; sourceTree = "<group>"; };
+		92CE17BA1E55638C0045C740 /* WLCThreadSafeArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCThreadSafeArray.h; sourceTree = "<group>"; };
+		92CE17BB1E55638C0045C740 /* WLCThreadSafeArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCThreadSafeArray.m; sourceTree = "<group>"; };
+		92CE17BC1E55638C0045C740 /* WLCThreadSafeDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCThreadSafeDictionary.h; sourceTree = "<group>"; };
+		92CE17BD1E55638C0045C740 /* WLCThreadSafeDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCThreadSafeDictionary.m; sourceTree = "<group>"; };
+		92CE17BE1E55638C0045C740 /* WLCToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCToastView.h; sourceTree = "<group>"; };
+		92CE17BF1E55638C0045C740 /* WLCToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCToastView.m; sourceTree = "<group>"; };
+		92CE17EC1E55639E0045C740 /* NSArray+WLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+WLC.h"; sourceTree = "<group>"; };
+		92CE17ED1E55639E0045C740 /* NSArray+WLC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+WLC.m"; sourceTree = "<group>"; };
+		92CE17EE1E55639E0045C740 /* NSBundle+WLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+WLC.h"; sourceTree = "<group>"; };
+		92CE17EF1E55639E0045C740 /* NSBundle+WLC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+WLC.m"; sourceTree = "<group>"; };
+		92CE17F01E55639E0045C740 /* NSData+WLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+WLC.h"; sourceTree = "<group>"; };
+		92CE17F11E55639E0045C740 /* NSData+WLC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+WLC.m"; sourceTree = "<group>"; };
+		92CE17F21E55639E0045C740 /* NSDate+WLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WLC.h"; sourceTree = "<group>"; };
+		92CE17F31E55639E0045C740 /* NSDate+WLC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WLC.m"; sourceTree = "<group>"; };
+		92CE17F41E55639E0045C740 /* NSObject+MethodSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MethodSwizzle.h"; sourceTree = "<group>"; };
+		92CE17F51E55639E0045C740 /* NSObject+MethodSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MethodSwizzle.m"; sourceTree = "<group>"; };
+		92CE17F61E55639E0045C740 /* PHAsset+WLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PHAsset+WLC.h"; sourceTree = "<group>"; };
+		92CE17F71E55639E0045C740 /* PHAsset+WLC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PHAsset+WLC.m"; sourceTree = "<group>"; };
+		92CE17F81E55639E0045C740 /* UIButton+WLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+WLC.h"; sourceTree = "<group>"; };
+		92CE17F91E55639E0045C740 /* UIButton+WLC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+WLC.m"; sourceTree = "<group>"; };
+		92CE17FA1E55639E0045C740 /* UIColor+WLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WLC.h"; sourceTree = "<group>"; };
+		92CE17FB1E55639E0045C740 /* UIColor+WLC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WLC.m"; sourceTree = "<group>"; };
+		92CE17FC1E55639E0045C740 /* UIDevice+WLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+WLC.h"; sourceTree = "<group>"; };
+		92CE17FD1E55639E0045C740 /* UIDevice+WLC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+WLC.m"; sourceTree = "<group>"; };
+		92CE17FE1E55639E0045C740 /* UIImage+WLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WLC.h"; sourceTree = "<group>"; };
+		92CE17FF1E55639E0045C740 /* UIImage+WLC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WLC.m"; sourceTree = "<group>"; };
+		92CE18001E55639E0045C740 /* UIImageView+WLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WLC.h"; sourceTree = "<group>"; };
+		92CE18011E55639E0045C740 /* UIImageView+WLC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WLC.m"; sourceTree = "<group>"; };
+		92CE18021E55639E0045C740 /* UILabel+WLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+WLC.h"; sourceTree = "<group>"; };
+		92CE18031E55639E0045C740 /* UILabel+WLC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+WLC.m"; sourceTree = "<group>"; };
+		92CE18041E55639E0045C740 /* UIScreen+WLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+WLC.h"; sourceTree = "<group>"; };
+		92CE18051E55639E0045C740 /* UIScreen+WLC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+WLC.m"; sourceTree = "<group>"; };
+		92CE18081E55639E0045C740 /* UIView+WLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WLC.h"; sourceTree = "<group>"; };
+		92CE18091E55639E0045C740 /* UIView+WLC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WLC.m"; sourceTree = "<group>"; };
+		92CE180A1E55639E0045C740 /* UIViewController+WLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WLC.h"; sourceTree = "<group>"; };
+		92CE180B1E55639E0045C740 /* UIViewController+WLC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WLC.m"; sourceTree = "<group>"; };
+		92CE18381E556A320045C740 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		92CE18791E55A6ED0045C740 /* WLCDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLCDatePicker.xib; sourceTree = "<group>"; };
+		92CE187A1E55A6ED0045C740 /* WLCEmptyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLCEmptyView.xib; sourceTree = "<group>"; };
+		92CE187B1E55A6ED0045C740 /* WLCPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLCPickerView.xib; sourceTree = "<group>"; };
+		92CE187C1E55A6ED0045C740 /* WLCSegmentedController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLCSegmentedController.xib; sourceTree = "<group>"; };
+		92CE187D1E55A6ED0045C740 /* WLCToastView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLCToastView.xib; sourceTree = "<group>"; };
+		92CE18871E55A7C70045C740 /* WLCKitBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLCKitBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		92CE18891E55A7C70045C740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92CE18941E56A9FD0045C740 /* WLCKitPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLCKitPrefixHeader.pch; sourceTree = "<group>"; };
+		92CE189D1E56CCBA0045C740 /* NSString+URLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URLEncode.h"; sourceTree = "<group>"; };
+		92CE189E1E56CCBA0045C740 /* NSString+URLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URLEncode.m"; sourceTree = "<group>"; };
+		92CE18A11E56CCE40045C740 /* NSObject+WLC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WLC.h"; sourceTree = "<group>"; };
+		92CE18A21E56CCE40045C740 /* NSObject+WLC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WLC.m"; sourceTree = "<group>"; };
+		92CE18A51E56CD2D0045C740 /* WLCAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCAnimation.h; sourceTree = "<group>"; };
+		92CE18A61E56CD2D0045C740 /* WLCAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCAnimation.m; sourceTree = "<group>"; };
+		92CE18A71E56CD2D0045C740 /* WLCBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCBannerView.h; sourceTree = "<group>"; };
+		92CE18A81E56CD2D0045C740 /* WLCBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCBannerView.m; sourceTree = "<group>"; };
+		92CE18A91E56CD2D0045C740 /* WLCCommentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCCommentView.h; sourceTree = "<group>"; };
+		92CE18AA1E56CD2D0045C740 /* WLCCommentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCCommentView.m; sourceTree = "<group>"; };
+		92CE18AB1E56CD2D0045C740 /* WLCPraiseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCPraiseView.h; sourceTree = "<group>"; };
+		92CE18AC1E56CD2D0045C740 /* WLCPraiseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCPraiseView.m; sourceTree = "<group>"; };
+		92CE18AD1E56CD2D0045C740 /* WLCQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCQueue.h; sourceTree = "<group>"; };
+		92CE18AE1E56CD2D0045C740 /* WLCQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCQueue.m; sourceTree = "<group>"; };
+		92CE18AF1E56CD2D0045C740 /* WLCStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCStack.h; sourceTree = "<group>"; };
+		92CE18B01E56CD2D0045C740 /* WLCStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCStack.m; sourceTree = "<group>"; };
+		92CE18BD1E56CD680045C740 /* wlc_comment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wlc_comment@2x.png"; sourceTree = "<group>"; };
+		92CE18BF1E56CD810045C740 /* wlc_empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wlc_empty@2x.png"; sourceTree = "<group>"; };
+		92CE18C11E56CDB80045C740 /* wlc_praise@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wlc_praise@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92CE17871E5558C90045C740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CE18391E556A320045C740 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CE18841E55A7C70045C740 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		92CE17811E5558C90045C740 = {
+			isa = PBXGroup;
+			children = (
+				92CE178D1E5558C90045C740 /* WLCKit */,
+				92CE18881E55A7C70045C740 /* WLCKitBundle */,
+				92CE178C1E5558C90045C740 /* Products */,
+				92CE18371E556A320045C740 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92CE178C1E5558C90045C740 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92CE178B1E5558C90045C740 /* WLCKit.framework */,
+				92CE18871E55A7C70045C740 /* WLCKitBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92CE178D1E5558C90045C740 /* WLCKit */ = {
+			isa = PBXGroup;
+			children = (
+				92CE18941E56A9FD0045C740 /* WLCKitPrefixHeader.pch */,
+				92CE178F1E5558C90045C740 /* Info.plist */,
+				92CE178E1E5558C90045C740 /* WLCKit.h */,
+				92CE17961E55638B0045C740 /* Classes */,
+				92CE17EB1E55639E0045C740 /* Categories */,
+				92CE18781E55A6ED0045C740 /* Resources */,
+			);
+			path = WLCKit;
+			sourceTree = "<group>";
+		};
+		92CE17961E55638B0045C740 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				92CE18A51E56CD2D0045C740 /* WLCAnimation.h */,
+				92CE18A61E56CD2D0045C740 /* WLCAnimation.m */,
+				92CE18A71E56CD2D0045C740 /* WLCBannerView.h */,
+				92CE18A81E56CD2D0045C740 /* WLCBannerView.m */,
+				92CE18A91E56CD2D0045C740 /* WLCCommentView.h */,
+				92CE18AA1E56CD2D0045C740 /* WLCCommentView.m */,
+				92CE18AB1E56CD2D0045C740 /* WLCPraiseView.h */,
+				92CE18AC1E56CD2D0045C740 /* WLCPraiseView.m */,
+				92CE18AD1E56CD2D0045C740 /* WLCQueue.h */,
+				92CE18AE1E56CD2D0045C740 /* WLCQueue.m */,
+				92CE18AF1E56CD2D0045C740 /* WLCStack.h */,
+				92CE18B01E56CD2D0045C740 /* WLCStack.m */,
+				92CE17991E55638C0045C740 /* WLCDatePicker.h */,
+				92CE179A1E55638C0045C740 /* WLCDatePicker.m */,
+				92CE179C1E55638C0045C740 /* WLCEmptyView.h */,
+				92CE179D1E55638C0045C740 /* WLCEmptyView.m */,
+				92CE179F1E55638C0045C740 /* WLCFileTypeCheck.h */,
+				92CE17A01E55638C0045C740 /* WLCFileTypeCheck.m */,
+				92CE17A11E55638C0045C740 /* WLCFileUploader.h */,
+				92CE17A21E55638C0045C740 /* WLCFileUploader.m */,
+				92CE17A41E55638C0045C740 /* WLCOnePixelView.h */,
+				92CE17A51E55638C0045C740 /* WLCOnePixelView.m */,
+				92CE17A61E55638C0045C740 /* WLCPickerView.h */,
+				92CE17A71E55638C0045C740 /* WLCPickerView.m */,
+				92CE17A91E55638C0045C740 /* WLCSandBox.h */,
+				92CE17AA1E55638C0045C740 /* WLCSandBox.m */,
+				92CE17AD1E55638C0045C740 /* WLCSegmentedControl.h */,
+				92CE17AE1E55638C0045C740 /* WLCSegmentedControl.m */,
+				92CE17AF1E55638C0045C740 /* WLCSegmentedController.h */,
+				92CE17B01E55638C0045C740 /* WLCSegmentedController.m */,
+				92CE17BA1E55638C0045C740 /* WLCThreadSafeArray.h */,
+				92CE17BB1E55638C0045C740 /* WLCThreadSafeArray.m */,
+				92CE17BC1E55638C0045C740 /* WLCThreadSafeDictionary.h */,
+				92CE17BD1E55638C0045C740 /* WLCThreadSafeDictionary.m */,
+				92CE17BE1E55638C0045C740 /* WLCToastView.h */,
+				92CE17BF1E55638C0045C740 /* WLCToastView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		92CE17EB1E55639E0045C740 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				92CE18A11E56CCE40045C740 /* NSObject+WLC.h */,
+				92CE18A21E56CCE40045C740 /* NSObject+WLC.m */,
+				92CE189D1E56CCBA0045C740 /* NSString+URLEncode.h */,
+				92CE189E1E56CCBA0045C740 /* NSString+URLEncode.m */,
+				92CE17EC1E55639E0045C740 /* NSArray+WLC.h */,
+				92CE17ED1E55639E0045C740 /* NSArray+WLC.m */,
+				92CE17EE1E55639E0045C740 /* NSBundle+WLC.h */,
+				92CE17EF1E55639E0045C740 /* NSBundle+WLC.m */,
+				92CE17F01E55639E0045C740 /* NSData+WLC.h */,
+				92CE17F11E55639E0045C740 /* NSData+WLC.m */,
+				92CE17F21E55639E0045C740 /* NSDate+WLC.h */,
+				92CE17F31E55639E0045C740 /* NSDate+WLC.m */,
+				92CE17F41E55639E0045C740 /* NSObject+MethodSwizzle.h */,
+				92CE17F51E55639E0045C740 /* NSObject+MethodSwizzle.m */,
+				92CE17F61E55639E0045C740 /* PHAsset+WLC.h */,
+				92CE17F71E55639E0045C740 /* PHAsset+WLC.m */,
+				92CE17F81E55639E0045C740 /* UIButton+WLC.h */,
+				92CE17F91E55639E0045C740 /* UIButton+WLC.m */,
+				92CE17FA1E55639E0045C740 /* UIColor+WLC.h */,
+				92CE17FB1E55639E0045C740 /* UIColor+WLC.m */,
+				92CE17FC1E55639E0045C740 /* UIDevice+WLC.h */,
+				92CE17FD1E55639E0045C740 /* UIDevice+WLC.m */,
+				92CE17FE1E55639E0045C740 /* UIImage+WLC.h */,
+				92CE17FF1E55639E0045C740 /* UIImage+WLC.m */,
+				92CE18001E55639E0045C740 /* UIImageView+WLC.h */,
+				92CE18011E55639E0045C740 /* UIImageView+WLC.m */,
+				92CE18021E55639E0045C740 /* UILabel+WLC.h */,
+				92CE18031E55639E0045C740 /* UILabel+WLC.m */,
+				92CE18041E55639E0045C740 /* UIScreen+WLC.h */,
+				92CE18051E55639E0045C740 /* UIScreen+WLC.m */,
+				92CE18081E55639E0045C740 /* UIView+WLC.h */,
+				92CE18091E55639E0045C740 /* UIView+WLC.m */,
+				92CE180A1E55639E0045C740 /* UIViewController+WLC.h */,
+				92CE180B1E55639E0045C740 /* UIViewController+WLC.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		92CE18371E556A320045C740 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92CE18381E556A320045C740 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92CE18781E55A6ED0045C740 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92CE18C11E56CDB80045C740 /* wlc_praise@2x.png */,
+				92CE18BF1E56CD810045C740 /* wlc_empty@2x.png */,
+				92CE18BD1E56CD680045C740 /* wlc_comment@2x.png */,
+				92CE18791E55A6ED0045C740 /* WLCDatePicker.xib */,
+				92CE187A1E55A6ED0045C740 /* WLCEmptyView.xib */,
+				92CE187B1E55A6ED0045C740 /* WLCPickerView.xib */,
+				92CE187C1E55A6ED0045C740 /* WLCSegmentedController.xib */,
+				92CE187D1E55A6ED0045C740 /* WLCToastView.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		92CE18881E55A7C70045C740 /* WLCKitBundle */ = {
+			isa = PBXGroup;
+			children = (
+				92CE18891E55A7C70045C740 /* Info.plist */,
+			);
+			path = WLCKitBundle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		92CE17881E5558C90045C740 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CE18B51E56CD2D0045C740 /* WLCCommentView.h in Headers */,
+				92CE17D01E55638C0045C740 /* WLCPickerView.h in Headers */,
+				92CE181B1E55639E0045C740 /* UIColor+WLC.h in Headers */,
+				92CE17C91E55638C0045C740 /* WLCFileTypeCheck.h in Headers */,
+				92CE17D71E55638C0045C740 /* WLCSegmentedControl.h in Headers */,
+				92CE17E81E55638C0045C740 /* WLCToastView.h in Headers */,
+				92CE181D1E55639E0045C740 /* UIDevice+WLC.h in Headers */,
+				92CE18251E55639E0045C740 /* UIScreen+WLC.h in Headers */,
+				92CE189F1E56CCBA0045C740 /* NSString+URLEncode.h in Headers */,
+				92CE17C61E55638C0045C740 /* WLCEmptyView.h in Headers */,
+				92CE18291E55639E0045C740 /* UIView+WLC.h in Headers */,
+				92CE180F1E55639E0045C740 /* NSBundle+WLC.h in Headers */,
+				92CE18BB1E56CD2D0045C740 /* WLCStack.h in Headers */,
+				92CE17C31E55638C0045C740 /* WLCDatePicker.h in Headers */,
+				92CE182B1E55639E0045C740 /* UIViewController+WLC.h in Headers */,
+				92CE17CB1E55638C0045C740 /* WLCFileUploader.h in Headers */,
+				92CE17E41E55638C0045C740 /* WLCThreadSafeArray.h in Headers */,
+				92CE18151E55639E0045C740 /* NSObject+MethodSwizzle.h in Headers */,
+				92CE18111E55639E0045C740 /* NSData+WLC.h in Headers */,
+				92CE18171E55639E0045C740 /* PHAsset+WLC.h in Headers */,
+				92CE17D31E55638C0045C740 /* WLCSandBox.h in Headers */,
+				92CE18231E55639E0045C740 /* UILabel+WLC.h in Headers */,
+				92CE180D1E55639E0045C740 /* NSArray+WLC.h in Headers */,
+				92CE17CE1E55638C0045C740 /* WLCOnePixelView.h in Headers */,
+				92CE17D91E55638C0045C740 /* WLCSegmentedController.h in Headers */,
+				92CE18191E55639E0045C740 /* UIButton+WLC.h in Headers */,
+				92CE18131E55639E0045C740 /* NSDate+WLC.h in Headers */,
+				92CE17901E5558C90045C740 /* WLCKit.h in Headers */,
+				92CE18211E55639E0045C740 /* UIImageView+WLC.h in Headers */,
+				92CE18B71E56CD2D0045C740 /* WLCPraiseView.h in Headers */,
+				92CE18A31E56CCE40045C740 /* NSObject+WLC.h in Headers */,
+				92CE18B31E56CD2D0045C740 /* WLCBannerView.h in Headers */,
+				92CE18B11E56CD2D0045C740 /* WLCAnimation.h in Headers */,
+				92CE17E61E55638C0045C740 /* WLCThreadSafeDictionary.h in Headers */,
+				92CE18B91E56CD2D0045C740 /* WLCQueue.h in Headers */,
+				92CE181F1E55639E0045C740 /* UIImage+WLC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		92CE178A1E5558C90045C740 /* WLCKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92CE17931E5558C90045C740 /* Build configuration list for PBXNativeTarget "WLCKit" */;
+			buildPhases = (
+				92CE17861E5558C90045C740 /* Sources */,
+				92CE17871E5558C90045C740 /* Frameworks */,
+				92CE17881E5558C90045C740 /* Headers */,
+				92CE17891E5558C90045C740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92CE188E1E55A83D0045C740 /* PBXTargetDependency */,
+			);
+			name = WLCKit;
+			productName = WLCKit;
+			productReference = 92CE178B1E5558C90045C740 /* WLCKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92CE18861E55A7C70045C740 /* WLCKitBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92CE188A1E55A7C70045C740 /* Build configuration list for PBXNativeTarget "WLCKitBundle" */;
+			buildPhases = (
+				92CE18831E55A7C70045C740 /* Sources */,
+				92CE18841E55A7C70045C740 /* Frameworks */,
+				92CE18851E55A7C70045C740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WLCKitBundle;
+			productName = WLCKitBundle;
+			productReference = 92CE18871E55A7C70045C740 /* WLCKitBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92CE17821E5558C90045C740 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = springcome;
+				TargetAttributes = {
+					92CE178A1E5558C90045C740 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 54QM55S5G4;
+						ProvisioningStyle = Automatic;
+					};
+					92CE18861E55A7C70045C740 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 54QM55S5G4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 92CE17851E5558C90045C740 /* Build configuration list for PBXProject "WLCKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 92CE17811E5558C90045C740;
+			productRefGroup = 92CE178C1E5558C90045C740 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92CE178A1E5558C90045C740 /* WLCKit */,
+				92CE18861E55A7C70045C740 /* WLCKitBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92CE17891E5558C90045C740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CE18821E55A6ED0045C740 /* WLCToastView.xib in Resources */,
+				92CE18C21E56CDB80045C740 /* wlc_praise@2x.png in Resources */,
+				92CE187E1E55A6ED0045C740 /* WLCDatePicker.xib in Resources */,
+				92CE18811E55A6ED0045C740 /* WLCSegmentedController.xib in Resources */,
+				92CE187F1E55A6ED0045C740 /* WLCEmptyView.xib in Resources */,
+				92CE18C01E56CD810045C740 /* wlc_empty@2x.png in Resources */,
+				92CE18BE1E56CD680045C740 /* wlc_comment@2x.png in Resources */,
+				92CE18801E55A6ED0045C740 /* WLCPickerView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CE18851E55A7C70045C740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CE196E1E56EB110045C740 /* wlc_praise@2x.png in Resources */,
+				92CE196F1E56EB110045C740 /* wlc_empty@2x.png in Resources */,
+				92CE19701E56EB110045C740 /* wlc_comment@2x.png in Resources */,
+				92CE188F1E55A8580045C740 /* WLCDatePicker.xib in Resources */,
+				92CE18901E55A8580045C740 /* WLCEmptyView.xib in Resources */,
+				92CE18911E55A8580045C740 /* WLCPickerView.xib in Resources */,
+				92CE18921E55A8580045C740 /* WLCSegmentedController.xib in Resources */,
+				92CE18931E55A8580045C740 /* WLCToastView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92CE17861E5558C90045C740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92CE181C1E55639E0045C740 /* UIColor+WLC.m in Sources */,
+				92CE18B21E56CD2D0045C740 /* WLCAnimation.m in Sources */,
+				92CE182A1E55639E0045C740 /* UIView+WLC.m in Sources */,
+				92CE18241E55639E0045C740 /* UILabel+WLC.m in Sources */,
+				92CE18A41E56CCE40045C740 /* NSObject+WLC.m in Sources */,
+				92CE18A01E56CCBA0045C740 /* NSString+URLEncode.m in Sources */,
+				92CE18BA1E56CD2D0045C740 /* WLCQueue.m in Sources */,
+				92CE17C41E55638C0045C740 /* WLCDatePicker.m in Sources */,
+				92CE18121E55639E0045C740 /* NSData+WLC.m in Sources */,
+				92CE180E1E55639E0045C740 /* NSArray+WLC.m in Sources */,
+				92CE18B81E56CD2D0045C740 /* WLCPraiseView.m in Sources */,
+				92CE17CC1E55638C0045C740 /* WLCFileUploader.m in Sources */,
+				92CE18221E55639E0045C740 /* UIImageView+WLC.m in Sources */,
+				92CE17DA1E55638C0045C740 /* WLCSegmentedController.m in Sources */,
+				92CE18181E55639E0045C740 /* PHAsset+WLC.m in Sources */,
+				92CE181E1E55639E0045C740 /* UIDevice+WLC.m in Sources */,
+				92CE18B41E56CD2D0045C740 /* WLCBannerView.m in Sources */,
+				92CE182C1E55639E0045C740 /* UIViewController+WLC.m in Sources */,
+				92CE17E71E55638C0045C740 /* WLCThreadSafeDictionary.m in Sources */,
+				92CE18201E55639E0045C740 /* UIImage+WLC.m in Sources */,
+				92CE18161E55639E0045C740 /* NSObject+MethodSwizzle.m in Sources */,
+				92CE17E91E55638C0045C740 /* WLCToastView.m in Sources */,
+				92CE17CF1E55638C0045C740 /* WLCOnePixelView.m in Sources */,
+				92CE18BC1E56CD2D0045C740 /* WLCStack.m in Sources */,
+				92CE181A1E55639E0045C740 /* UIButton+WLC.m in Sources */,
+				92CE17D81E55638C0045C740 /* WLCSegmentedControl.m in Sources */,
+				92CE18101E55639E0045C740 /* NSBundle+WLC.m in Sources */,
+				92CE17E51E55638C0045C740 /* WLCThreadSafeArray.m in Sources */,
+				92CE17D41E55638C0045C740 /* WLCSandBox.m in Sources */,
+				92CE17C71E55638C0045C740 /* WLCEmptyView.m in Sources */,
+				92CE18261E55639E0045C740 /* UIScreen+WLC.m in Sources */,
+				92CE17CA1E55638C0045C740 /* WLCFileTypeCheck.m in Sources */,
+				92CE17D11E55638C0045C740 /* WLCPickerView.m in Sources */,
+				92CE18141E55639E0045C740 /* NSDate+WLC.m in Sources */,
+				92CE18B61E56CD2D0045C740 /* WLCCommentView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92CE18831E55A7C70045C740 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		92CE188E1E55A83D0045C740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 92CE18861E55A7C70045C740 /* WLCKitBundle */;
+			targetProxy = 92CE188D1E55A83D0045C740 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		92CE17911E5558C90045C740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		92CE17921E5558C90045C740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92CE17941E5558C90045C740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 54QM55S5G4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = WLCKit/WLCKitPrefixHeader.pch;
+				INFOPLIST_FILE = WLCKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wang.springcome.WLCKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		92CE17951E5558C90045C740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 54QM55S5G4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = WLCKit/WLCKitPrefixHeader.pch;
+				INFOPLIST_FILE = WLCKit/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wang.springcome.WLCKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		92CE188B1E55A7C70045C740 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = 54QM55S5G4;
+				INFOPLIST_FILE = WLCKitBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = wang.springcome.WLCKitBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		92CE188C1E55A7C70045C740 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				DEVELOPMENT_TEAM = 54QM55S5G4;
+				INFOPLIST_FILE = WLCKitBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = wang.springcome.WLCKitBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92CE17851E5558C90045C740 /* Build configuration list for PBXProject "WLCKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CE17911E5558C90045C740 /* Debug */,
+				92CE17921E5558C90045C740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92CE17931E5558C90045C740 /* Build configuration list for PBXNativeTarget "WLCKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CE17941E5558C90045C740 /* Debug */,
+				92CE17951E5558C90045C740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92CE188A1E55A7C70045C740 /* Build configuration list for PBXNativeTarget "WLCKitBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92CE188B1E55A7C70045C740 /* Debug */,
+				92CE188C1E55A7C70045C740 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92CE17821E5558C90045C740 /* Project object */;
+}
