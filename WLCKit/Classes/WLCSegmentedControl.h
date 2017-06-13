@@ -17,21 +17,31 @@
 @interface WLCSegmentedControl : UIView
 
 @property (weak, nonatomic) IBOutlet id<WLCSegmentedControlDelegate> delegate;
-@property (strong, nonatomic) NSArray *titles;
+
+- (instancetype)initWithFrame:(CGRect)frame segmentTitles:(NSArray *)titles;
+
 @property (assign, nonatomic) NSInteger selectedSegmentIndex;
 
-@property (assign, nonatomic) CGFloat fontSize; // default is 16.0f
-@property (strong, nonatomic) UIColor *fontColor; // default is whiteColor
-@property (strong, nonatomic) UIColor *selectedFontColor; // default is whiteColor
-@property (strong, nonatomic) UIColor *dividerColor; // default is whiteColor
-@property (assign, nonatomic) UIColor *sliderColor; // default is whiteColor
+@property (assign, nonatomic) UIFont *titleFont; // the title font size, default is [UIFont systemFontOfSize:15.0]
 
-@property (assign, nonatomic) CGFloat sliderWidth; // default is 60.0f
-@property (assign, nonatomic) CGFloat sliderHeight; // default is 2.0f
-@property (assign, nonatomic) CGFloat sliderBottomMargin; // default is 4.0f
+@property (strong, nonatomic) UIColor *titleColor; // the title normal color, default is blackColor
+
+@property (strong, nonatomic) UIColor *selectedTitleColor; // default is blueColor
+
+@property (strong, nonatomic) UIColor *dividerColor; // default is blueColor
+
 @property (assign, nonatomic) CGFloat dividerWidth; // default is 1.0f
+
 @property (assign, nonatomic) CGFloat dividerHeight; // default is 20.0f
 
 @property (assign, nonatomic) BOOL hideDivider; // default is NO
+
+@property (assign, nonatomic) UIColor *indicatorColor; // default is blueColor
+
+@property (assign, nonatomic) CGFloat indicatorWidth; // default is 60.0f
+
+@property (assign, nonatomic) CGFloat indicatorHeight; // default is 2.0f
+
+@property (assign, nonatomic) CGFloat indicatorBottomMargin; // default is 4.0f
 
 @end

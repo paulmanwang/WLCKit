@@ -75,18 +75,17 @@
 
 - (void)configSegmentedControl
 {
-    self.segmentedControl = [[WLCSegmentedControl alloc] initWithFrame:CGRectMake(0, 0, self.view.width, 30)];
-    self.segmentedControl.backgroundColor = [UIColor clearColor];
-    self.segmentedControl.fontColor = [UIColor whiteColor];
-    self.segmentedControl.sliderColor = [UIColor whiteColor];
-    self.segmentedControl.dividerWidth = 0;
-    self.segmentedControl.delegate = self;
-    
     NSMutableArray *titles = [NSMutableArray new];
     for (UIViewController *vc in self.viewControllers) {
         [titles addObject:vc.title];
     }
-    [self.segmentedControl setTitles:titles];
+    
+    self.segmentedControl = [[WLCSegmentedControl alloc] initWithFrame:CGRectMake(0, 0, self.view.width, 30) segmentTitles:titles];
+    self.segmentedControl.backgroundColor = [UIColor clearColor];
+    self.segmentedControl.titleColor = [UIColor whiteColor];
+    self.segmentedControl.indicatorColor = [UIColor whiteColor];
+    self.segmentedControl.dividerWidth = 0;
+    self.segmentedControl.delegate = self;
     
     self.navigationItem.titleView = self.segmentedControl;
     
