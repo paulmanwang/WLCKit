@@ -54,10 +54,8 @@
 
 - (void)setTitles:(NSArray *)titles
 {
-    _titles = titles;
-    
     [self clearSubviews];
-    if (!_titles || titles.count == 0) {
+    if (titles.count == 0) {
         return ;
     }
     

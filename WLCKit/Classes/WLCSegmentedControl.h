@@ -44,4 +44,18 @@
 
 @property (assign, nonatomic) CGFloat indicatorBottomMargin; // default is 4.0f
 
+@property (assign, nonatomic) CGFloat sliderHeight;
+
+@property (assign, nonatomic) CGFloat sliderWidth;
+
+@property (assign, nonatomic) CGFloat sliderBottomMargin;
+
+@property (strong, nonatomic) UIColor *sliderColor;
+
+@property (strong, nonatomic) UIColor *selectedFontColor;
+
+@property (assign, nonatomic) CGFloat fontSize;
+
+@property (strong, nonatomic) UIColor *fontColor;
+
 @end

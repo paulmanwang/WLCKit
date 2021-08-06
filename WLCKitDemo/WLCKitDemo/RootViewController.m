@@ -17,9 +17,6 @@
 
 @property (strong, nonatomic) WLCStack *testStack;
 
-@property (strong, nonatomic) NSArray *immutableArray;
-@property (strong, nonatomic) NSMutableArray *mutableArrray;
-
 @end
 
 @implementation RootViewController
@@ -29,15 +26,6 @@
     [super viewDidLoad];
     
     self.edgesForExtendedLayout = UIRectEdgeNone;
-    
-    self.immutableArray = @[@"1", @"2", @"3"];
-    self.mutableArrray = [[NSMutableArray alloc] initWithArray:@[@"1", @"2", @"3"]];
-    
-    id test1 = [self.immutableArray copy];
-    id test2 = [self.immutableArray mutableCopy];
-    
-    id test3 = [self.mutableArrray copy];
-    id test4 = [self.mutableArrray mutableCopy];
     
     [self fundationTest];
     [self customViewTest];

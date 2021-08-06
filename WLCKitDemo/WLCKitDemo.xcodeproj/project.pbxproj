@@ -48,7 +48,6 @@
 		92CE19611E56E0F70045C740 /* WLCThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE192F1E56E0F70045C740 /* WLCThreadSafeArray.m */; };
 		92CE19621E56E0F70045C740 /* WLCThreadSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE19311E56E0F70045C740 /* WLCThreadSafeDictionary.m */; };
 		92CE19631E56E0F70045C740 /* WLCToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CE19331E56E0F70045C740 /* WLCToastView.m */; };
-		92CE19641E56E0F70045C740 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92CE19341E56E0F70045C740 /* Info.plist */; };
 		92CE19651E56E0F70045C740 /* wlc_comment@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92CE19361E56E0F70045C740 /* wlc_comment@2x.png */; };
 		92CE19661E56E0F70045C740 /* wlc_empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92CE19371E56E0F70045C740 /* wlc_empty@2x.png */; };
 		92CE19671E56E0F70045C740 /* wlc_praise@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92CE19381E56E0F70045C740 /* wlc_praise@2x.png */; };
@@ -149,7 +148,6 @@
 		92CE19311E56E0F70045C740 /* WLCThreadSafeDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCThreadSafeDictionary.m; sourceTree = "<group>"; };
 		92CE19321E56E0F70045C740 /* WLCToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLCToastView.h; sourceTree = "<group>"; };
 		92CE19331E56E0F70045C740 /* WLCToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLCToastView.m; sourceTree = "<group>"; };
-		92CE19341E56E0F70045C740 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92CE19361E56E0F70045C740 /* wlc_comment@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wlc_comment@2x.png"; sourceTree = "<group>"; };
 		92CE19371E56E0F70045C740 /* wlc_empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wlc_empty@2x.png"; sourceTree = "<group>"; };
 		92CE19381E56E0F70045C740 /* wlc_praise@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wlc_praise@2x.png"; sourceTree = "<group>"; };
@@ -233,7 +231,6 @@
 		92CE18EB1E56E0F60045C740 /* WLCKit */ = {
 			isa = PBXGroup;
 			children = (
-				92CE19341E56E0F70045C740 /* Info.plist */,
 				92CE193E1E56E0F70045C740 /* WLCKit.h */,
 				92CE193F1E56E0F70045C740 /* WLCKitBundle.bundle */,
 				92CE18EC1E56E0F60045C740 /* Categories */,
@@ -400,6 +397,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -421,7 +419,6 @@
 				92CE196D1E56E0F70045C740 /* WLCKitBundle.bundle in Resources */,
 				92CE19691E56E0F70045C740 /* WLCEmptyView.xib in Resources */,
 				92CE196C1E56E0F70045C740 /* WLCToastView.xib in Resources */,
-				92CE19641E56E0F70045C740 /* Info.plist in Resources */,
 				92CE18DF1E56DF610045C740 /* LaunchScreen.storyboard in Resources */,
 				92CE19671E56E0F70045C740 /* wlc_praise@2x.png in Resources */,
 				92CE19651E56E0F70045C740 /* wlc_comment@2x.png in Resources */,
